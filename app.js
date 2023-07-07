@@ -14,7 +14,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/users', (req, res) => {
-  res.send('Users webhoo');
+  res.send('Users wbhoo');
 });
 
 app.listen(3001, () => {
