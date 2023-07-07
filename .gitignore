@@ -1,1 +1,7 @@
 node_modules/
+
+stage('Run') {
+      steps {
+        sh 'node app.js'
+      }
+    }
