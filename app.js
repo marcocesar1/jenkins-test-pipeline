@@ -13,6 +13,10 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+app.get('/users', (req, res) => {
+  res.send('Users');
+});
+
 app.listen(3001, () => {
   console.log('Server is running on port 3001');
 });
