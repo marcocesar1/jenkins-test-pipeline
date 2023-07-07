@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello, world! 2.0');
+  res.send('Hello, world! 3.0');
 });
 
 app.listen(3001, () => {
